@@ -6,6 +6,18 @@
 	<array>
 		<dict>
 			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>label</key>
+			<string>Enable</string>
+			<key>defaults</key>
+			<string>com.skrypton.hyperbolictime</string>
+			<key>key</key>
+			<string>enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
 			<string>CONFIGURE COLORS</string>
@@ -19,7 +31,7 @@
 			<key>label</key>
 			<string>Hour</string>
 			<key>defaults</key>
-			<string>com.skrypton.timeprefbundle</string>
+			<string>com.skrypton.hyperbolictime</string>
 			<key>key</key>
 			<string>hourColor</string>
 			<key>safeOnDismiss</key>
@@ -35,7 +47,7 @@
 			<key>label</key>
 			<string>Minute</string>
 			<key>defaults</key>
-			<string>com.skrypton.timeprefbundle</string>
+			<string>com.skrypton.hyperbolictime</string>
 			<key>key</key>
 			<string>minuteColor</string>
 			<key>safeOnDismiss</key>
@@ -51,7 +63,7 @@
 			<key>label</key>
 			<string>Seconds</string>
 			<key>defaults</key>
-			<string>com.skrypton.timeprefbundle</string>
+			<string>com.skrypton.hyperbolictime</string>
 			<key>key</key>
 			<string>secondsColor</string>
 			<key>safeOnDismiss</key>
