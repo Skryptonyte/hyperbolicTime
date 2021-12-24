@@ -1,6 +1,6 @@
 Package: com.skrypton.hyperbolictime
 Name: hyperbolicTime
-Version: 1.1.0
+Version: 1.1.1
 Architecture: iphoneos-arm
 Description: A revamped clock for the lockscreen
 Maintainer: skrypton

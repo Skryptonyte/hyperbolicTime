@@ -181,15 +181,10 @@ static UIColor* secondsColor;
 	return %orig;
 }
 
-- (void)removeFromSuperview
+- (void)dealloc
 {
 	%orig;
 	if (l) [l setAlpha:1.0];
 }
 
 %end
-
-%ctor {
-
-
-}
